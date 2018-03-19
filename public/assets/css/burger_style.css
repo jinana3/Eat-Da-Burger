@@ -1,3 +1,7 @@
+body {
+    background-image: url("/assets/img/burger.jpg");
+}
+
 ul {
   padding: 5px;
   margin: 5px;
