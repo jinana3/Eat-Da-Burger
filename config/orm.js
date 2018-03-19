@@ -55,6 +55,12 @@ var orm = {
       cb(result); //do something with the returned sql query result
     });
   },
+
+/*
+cb = function(res) {
+      cb(res); //second layer function
+    }*/
+
   //insertOne()
   insertOne: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
