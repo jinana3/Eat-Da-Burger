@@ -12,7 +12,12 @@ You can add a burger to the list or devour any undevoured burgers.
 
 ### How users can get started with the project?
 
-User does not need to set up anything.
+Works in CLI. Please create database and table using items in `db` folder
+Please then configure file in `config` folder to include your MySQL database credentials
+
+### Heroku hosting
+
+Currently work in progress on remote database creation. Will release Heroku link as soon as this is resolved.
 
 ### Where users can get help with your project?
 
