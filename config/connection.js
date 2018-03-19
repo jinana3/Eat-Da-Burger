@@ -1,4 +1,6 @@
 // Set up MySQL connection.
+
+//code borrowed from week 14 activity 18 catsapp
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
@@ -6,7 +8,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "jinayiming0201",
-  database: "cat_db"
+  database: "burgers_db"
 });
 
 // Make connection.
