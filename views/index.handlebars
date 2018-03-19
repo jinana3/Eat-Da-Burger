@@ -1,4 +1,4 @@
-<h2>Add a Burger</h2>
+<h1>Add a Burger</h1>
 <form class="create-form">
 
   <div class="form-group">
@@ -24,10 +24,11 @@
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      <p>{{id}}. {{burger_name}}</p>
-      <button class="change-devour" data-id="{{id}}" data-newdevour=true>
-        {{#if devoured}}devoured!{{else}}devour me!{{/if}}
-      </button>
+      <p>{{id}}. {{burger_name}}
+        <span><button class="change-devour" data-id="{{id}}" data-newdevour=true>
+          {{#if devoured}}devoured!{{else}}devour me!{{/if}}
+        </button></span>
+      </p>
     {{/unless}}
   {{/each}}
 </ul>
